@@ -1,5 +1,9 @@
 # Towards Fast, Accurate and Stable 3D Dense Face Alignment
 
+#### This is a re-implementation of this project as a requirement for EN3160 module project, we have added our code files also into this repository.
+
+
+
 [![License](https://img.shields.io/badge/license-MIT-yellow.svg)](LICENSE)
 ![GitHub repo size](https://img.shields.io/github/repo-size/cleardusk/3DDFA_V2.svg)
 [![](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1OKciI0ETCpWdRjP-VOGpBulDJojYfgWv)
