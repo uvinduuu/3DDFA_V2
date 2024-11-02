@@ -23,6 +23,7 @@ from utils.tddfa_util import (
 
 make_abs_path = lambda fn: osp.join(osp.dirname(osp.realpath(__file__)), fn)
 
+# given image and box / landmark, return 3DDFA params and roi_box
 
 class TDDFA(object):
     """TDDFA: named Three-D Dense Face Alignment (TDDFA)"""
@@ -121,6 +122,8 @@ class TDDFA(object):
 
         return param_lst, roi_box_lst
 
+
+    # given 3DDFA params and roi_box, return vertices in 3D space
     def recon_vers(self, param_lst, roi_box_lst, **kvs):
         dense_flag = kvs.get('dense_flag', False)
         size = self.size
